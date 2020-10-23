@@ -1,38 +1,187 @@
-.App {
+
+.tarjetaLogin{
+  background-color: rgb(255, 255, 255);
+  width: 750px;
   text-align: center;
+  margin: 120px;
+  margin-top: 2%;
+  margin-left: auto;  
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 6px 9px 28px -4px rgba(0,0,0,0.75);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  display: block;
+  width: 450px;
+  font-size: 150%;
+  margin: auto;
+  border: none;
+  color: rgb(48, 46, 46);
+  border-bottom: 2px solid black;
+  font-family: 'Open Sans', sans-serif;
+  /*text-align: center; placeholder*/
+  
+}
+/*
+input[type=text]:focus {
+  background-color: lightblue;
+}*/
+input::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-bottom: 3px solid #2ecece;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label{
+  font-weight: bold;
+  font-size: 120%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputLogin{
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+}
+
+
+form div{
+  margin: 40px;
+}
+
+
+
+/*BOTONES PAGE INICIO*/
+.botonIngresar {
+  background-color: #49d49d;
+  color:  white;
+  margin-top: 0%;
+  border: none;
+  border-radius: 10px;
+  line-height: 40px;
+  width: 230px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.botonIngresar:hover {
+  background-color: #2eaf7c;
+  color: rgb(255, 255, 255);
+
+}
+
+.botonCrear{
+  background-color: white;
+  color:  #49d49d;
+  margin-top: -10px;
+  border: none;
+  border: 1px solid #49d49d;
+  border-radius: 10px;
+  line-height: 40px;
+  width: 230px;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+.botonCrear:hover{
+  background-color: #24bb7e;
+  color:  white;
+
+}
+
+/* Botones Register */
+.botonForm{
+  background-color: #49d49d;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  line-height: 40px;
+  width: 230px;
+  font-size: 20px;
+
+  cursor: pointer;
+
+}
+
+
+/* color body #f0f2f5*/
+
+.estiloIcon{
+  margin-top: -30px;
+  font-size: 450%;
+  color: #2ecece;
+  
+  
+}
+
+.pruebaTitulo{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.nav-menu-items{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato',sans-serif;
+}
+
+.Soporte,
+.Reportes,
+.Configuracion{
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 3rem;
+}
+
+.tarjetaMenu2{
+  background-color: cornflowerblue;
+  display: flex;
+  height: 90pv;
+}
+
+.tarjetaMenu{
+  background-color: rgb(14, 136, 173);
   color: white;
+  width: 750px;
+  text-align: center;
+  margin: 120px;
+  margin-top: 8%;
+  margin-left: auto;  
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 5px 11px -4px rgba(0,0,0,0.75); 
 }
 
-.App-link {
-  color: #61dafb;
+.BotonMas{
+  margin-top: -50px;
+  color:#24bb7e ;
+  font-size: 40px ;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.NuevoGroup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+
 }
