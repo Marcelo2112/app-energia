@@ -38,6 +38,14 @@ input::after {
   transition: all 0.3s ease;
 }
 
+h1:hover{
+ color: crimson;
+ cursor: pointer;
+ transform: translateY(-5%);
+ 
+ transition: 100ms;
+}
+
 label{
   font-weight: bold;
   font-size: 120%;
