@@ -5,6 +5,8 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faUser} from '@fortawesome/free-solid-svg-icons'
 import {isEmpty} from '../utilidad/Util'
 
+import TextArea from '../componentes/TextArea'
+
 
 
 
@@ -88,6 +90,8 @@ class LoginForm extends React.Component{
                 error={errors.password} 
                 value={password} 
                 />
+               
+                
                 
                 <div>
                 

@@ -1,16 +1,16 @@
 import React from 'react'
-import NavBar from '../componentNav/NavBar'
+import SoporteForm from '../contenedor/SoporteForm'
+import ContenedorMenu from '../componentes/ContenedorMenu'
 
-function Soporte(){
-    
+
+function Soporte (){
     return (
         <>
-        
-         <div className='Soporte'>
-               <h1>Soporte</h1>
-        </div>
-     </>
+        <ContenedorMenu>
+            <SoporteForm/>
+        </ContenedorMenu>
+        </>
     )
 }
 
-export default Soporte;
+export default Soporte
